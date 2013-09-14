@@ -97,7 +97,7 @@ mlias usb    "cd /media/usb" # Open most recently plugged in usb
 #******************************
 mlias barevim "vi -u NONE" # vim with no frills or plugins
 mlias barezsh "zsh -f" # zsh with no frills or plugins
-func  cdnew {  c `/bin/ls -tc1d *(-/) | head -1` } # cd into the newest directory
+func  cdnew {  cd `/bin/ls -tc1d *(-/) | head -1` } # cd into the newest directory
 mlias chown   "chown --preserve-root"
 mlias chmod   "chmod --preserve-root"
 mlias chgrp   "chgrp --preserve-root"

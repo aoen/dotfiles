@@ -1,0 +1,1 @@
+/home/dan/Dropbox/ubuntu/.vimrc
